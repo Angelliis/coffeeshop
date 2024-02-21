@@ -1,0 +1,43 @@
+body {
+    background-color: #f5f5f5;/*This changes the background colour*/
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+
+
+header {
+    background-color: #8c534a;
+    color: #fff;
+    padding: 20px;
+}
+footer {
+    background-color: #8c534a;
+    color: #fff;
+    padding: 20px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.box {
+    background-color: #e0ac7f;
+    border-radius: 10px;
+    padding: 20px;
+}
